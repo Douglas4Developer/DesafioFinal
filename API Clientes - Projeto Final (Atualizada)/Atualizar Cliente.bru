@@ -1,0 +1,22 @@
+meta {
+  name: Atualizar Cliente
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{base_url}}/clientes/1
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+      "nome": "Nome Atualizado",
+      "email": "atualizado@email.com"
+  }
+}

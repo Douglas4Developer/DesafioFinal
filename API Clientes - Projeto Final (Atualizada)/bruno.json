@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "API Clientes - Projeto Final (Atualizada)",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
